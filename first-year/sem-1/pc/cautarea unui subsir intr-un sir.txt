@@ -1,0 +1,11 @@
+char sir [80], subsir [80];
+char *p;
+printf ("Introduceti sirul: ");
+gets (sir1);
+printf ("Introduceti subsirul cautat: ");
+gets (sir2);
+p = strstr (sir, subsir);
+if (p != NULL)
+printf ("%s contine %s \n", sir, subsir);
+else
+printf ("%s nu contine %s \n", sir, subsir);
